@@ -104,4 +104,59 @@ This document tracks the key data processing and cleaning steps undertaken in th
 *   **Methodology:**
     1.  Used `grep_search` to find the NPI for "Alexandra Lee-Elstein" in the mapping file.
     2.  Created and ran script (`update_elstein_name.py`) to change the Last Name associated with NPI `1043520661` from "Lee-Elstein" to "Elstein" in `provider_ids_for_mapping.csv`.
-*   **Outcome:** Name updated in the mapping file. Script deleted. 
+*   **Outcome:** Name updated in the mapping file. Script deleted.
+
+## Creation of New Master Provider List (`new_provider_truth_file.csv`)
+
+*   **Goal:** Create a new, consolidated master provider list to serve as the primary source of truth, moving away from `provider_ids_for_mapping.csv`. This new file will incorporate names from Pulse, Northshore, and unmatched legacy providers, along with NPIs and a new UIUD column.
+*   **Methodology:**
+    1.  Created Python script `03_scripts/create_new_truth_file.py`.
+    2.  The script loads data from:
+        *   `05_airtable_and_mapping/02_pulse/pulse_consolidated_names.csv` (Pulse providers)
+        *   `05_airtable_and_mapping/03_northshore/northshore_names.csv` (Northshore providers)
+        *   `05_airtable_and_mapping/04_not_in_pulse_or_northshore/unmatched_providers.csv` (Legacy providers not in Pulse/Northshore)
+        *   `05_airtable_and_mapping/01_name_npi_airtable/provider_ids_for_mapping.csv` (for NPI lookup).
+    3.  It standardizes names (First, Last) and NPIs.
+    4.  For Pulse providers, it retains the `Pulse Label`. For Northshore and unmatched, it assigns "Northshore" or "Legacy/Unmatched" as the `Internal Label`.
+    5.  It combines these sources, prioritizing NPIs for matching where available.
+    6.  The script generates a new CSV with columns: `uiud` (blank), `First Name`, `Last Name`, `NPI Number`, `Internal Label`.
+*   **Execution & Outcome:**
+    *   Script `03_scripts/create_new_truth_file.py` was executed.
+    *   A new master provider list `01_processed_data/new_provider_truth_file.csv` was successfully generated, containing 251 unique providers.
+
+## Enriching Master List: Phone Numbers and Web Addresses
+
+*   **Goal:** Add phone numbers (for BHI providers) and web addresses (from legacy Airtable) to the `new_provider_truth_file.csv`.
+*   **Methodology:**
+    1.  Created Python script `03_scripts/enrich_truth_file.py`.
+    2.  The script loads:
+        *   `01_processed_data/new_provider_truth_file.csv` (the current master list).
+        *   `00_source_data/pulse_data/pulse_bhi/pulse_bhi.csv` (for BHI phone numbers, using `Provider Name` and `Patient Facing Number`).
+        *   `00_source_data/airtable_monolithic/Providers-All Providers.csv` (for web addresses, using `First Name`, `Last Name`, `National Provider Identifier (NPI)`, and `Profile Link - Legacy Site`).
+    3.  It adds two new columns to the master list: `Phone Number` and `Web Address`.
+    4.  Phone numbers are populated only for providers with an `Internal Label` containing "BHI". It matches BHI providers by name (after normalization) to find their phone number in `pulse_bhi.csv`. Phone numbers are formatted to `(XXX) XXX-XXXX`.
+    5.  Web addresses are populated by matching providers from the master list (first by NPI, then by normalized name) to the legacy Airtable data.
+*   **Execution & Outcome:**
+    *   Script `03_scripts/enrich_truth_file.py` was executed successfully.
+    *   The `new_provider_truth_file.csv` was updated in place with phone numbers for 21 BHI providers and web addresses for 176 providers.
+
+## Enriching Master List: Salesforce Credentials
+
+*   **Goal:** Add a standardized `Salesforce Credential` column to `new_provider_truth_file.csv` by cross-referencing credentials from various source files against the official `02_salesforce_picklist/salesforce_credentials.csv`.
+*   **Methodology:**
+    1.  Created Python script `03_scripts/add_salesforce_credentials.py`.
+    2.  The script loads:
+        *   `01_processed_data/new_provider_truth_file.csv`.
+        *   `02_salesforce_picklist/salesforce_credentials.csv` (loaded into a set for lookup, preserving original casing for output).
+        *   Credential sources: `pulse_bhi.csv`, `pulse_counseling.csv`, `pulse_mm.csv` (using `Provider Name` and `Credentials`), and `Providers-All Providers.csv` (using `First Name`, `Last Name`, `NPI`, and `Credentials`).
+    3.  It builds lookup dictionaries from the source files to map providers (by NPI and normalized name key) to their raw credential strings.
+    4.  For each provider in the truth file, it:
+        *   Collects all their raw credential strings from the source files.
+        *   Parses each raw string, splitting by delimiters (`,`, `;`, `/`, `&`, `#`, ` and `) and normalizing (uppercase, strip periods).
+        *   Checks each parsed credential candidate against the Salesforce credential set.
+        *   If a match is found, the *first* corresponding original Salesforce credential (from `salesforce_credentials.csv`) is written to the new `Salesforce Credential` column.
+    5.  Initial run resulted in 0 matches due to an error in the `parse_credentials` function that incorrectly added spaces to single credentials (e.g., "LCSW" became "L CS W").
+    6.  The `parse_credentials` function was debugged and corrected by removing the faulty regex line.
+*   **Execution & Outcome:**
+    *   Script `03_scripts/add_salesforce_credentials.py` (with corrected parsing) was executed successfully.
+    *   The `new_provider_truth_file.csv` was updated in place. The `Salesforce Credential` column was populated for 215 providers. 
