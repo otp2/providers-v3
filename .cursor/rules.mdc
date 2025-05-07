@@ -1,0 +1,3 @@
+# Assistant Collaboration Rules
+
+1.  **Verification of Generated Files**: Always offer to show the complete contents of generated files, or a very substantial portion if they are extremely large (e.g., >500 lines, suggest chunks), to allow for full verification of accuracy and completeness by the user. Do not assume partial displays are sufficient. 
