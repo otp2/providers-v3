@@ -1,0 +1,14 @@
+--- Running script: split_pulse_names.py ---
+Attempting to load consolidated names from: 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv
+Successfully loaded 141 entries into name split lookup.
+
+Processing file: 00_source_data\pulse_data\pulse_bhi\pulse_bhi.csv
+  Error: Column 'Provider Name' not found in header of 00_source_data\pulse_data\pulse_bhi\pulse_bhi.csv. Header: ['Title', 'Availability', 'First Name', 'Last Name', 'Therapist Gender', 'EEMG Practice', 'Credentials', 'Patient Facing Number', 'Services Offered', 'Ages', 'Specialities/Preference', 'Do Not Refer', 'Other Considerations']. Skipping file.
+
+Processing file: 00_source_data\pulse_data\pulse_counseling\pulse_counseling.csv
+  Error: Column 'Therapist Name' not found in header of 00_source_data\pulse_data\pulse_counseling\pulse_counseling.csv. Header: ['Title', 'Availability', 'Location', 'CT Gender ID', 'First Name', 'Last Name', 'Credentials', 'Ages', 'Specialties/Preferences', 'DO NOT Refer', 'Other Considerations', 'Link to Website']. Skipping file.
+
+Processing file: 00_source_data\pulse_data\pulse_mm\pulse_mm.csv
+  Error: Column 'Provider Name' not found in header of 00_source_data\pulse_data\pulse_mm\pulse_mm.csv. Header: ['Title', 'Availability', 'Location', 'Gender', 'First Name', 'Last Name', 'Credentials', 'Soonest Availability', 'Ages', 'Eval Info', 'Insurance Restrictions', 'Specialties', 'Do NOT Refer', 'Other Considerations', 'Link to Website']. Skipping file.
+
+--- Script split_pulse_names.py finished ---

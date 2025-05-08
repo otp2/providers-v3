@@ -1,0 +1,16 @@
+--- Running script: add_internal_label_to_northshore.py ---
+Attempting to load Guidebook data from: 00_source_data\guidebook\guidebook.csv
+Successfully loaded 50 unique (First, Last) -> Internal Label entries from Guidebook.
+
+Attempting to process Northshore names file: 05_airtable_and_mapping\03_northshore\northshore_names.csv
+Finished reading Northshore names. Processed 50 data rows.
+
+Attempting to write 50 data rows (plus header) back to: 05_airtable_and_mapping\03_northshore\northshore_names.csv
+Successfully wrote updated data to 05_airtable_and_mapping\03_northshore\northshore_names.csv
+
+--- Add Internal Label to Northshore Summary ---
+Total rows processed from Northshore names: 50
+Internal Labels successfully added/updated: 50
+Internal Labels NOT found (or name missing in Northshore): 0
+
+--- Script add_internal_label_to_northshore.py finished ---

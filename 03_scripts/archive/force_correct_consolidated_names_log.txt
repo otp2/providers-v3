@@ -1,0 +1,151 @@
+--- Running script: force_correct_consolidated_names.py ---
+Attempting to read: 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv
+Successfully read 141 original rows from 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv. Fieldnames: ['First Name', 'Last Name', 'Pulse Label']
+--- Rebuilding list with forced corrections ---
+Step 1: Seeding rebuilt list with EXPLICITLY CORRECT names.
+  Ensured correct entry: Lia, Panos, BHI
+  Ensured correct entry: Martha, Trujillo, BHI
+  Ensured correct entry: Martha, Trujillo, Counseling
+  Ensured correct entry: Sarah, Mulligan, Counseling
+  Ensured correct entry: Martin, Beirne, Counseling
+  Ensured correct entry: Kathryn, Ordiway, Counseling
+  Ensured correct entry: Radostina, Yakimova-Marfoe, Counseling
+  Ensured correct entry: Pagel, Palmer, Counseling
+  Ensured correct entry: Michael, Geraci, Counseling
+Step 2: Processing original rows from input file.
+  Original Row 1 (Adam Oberhoffer, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 2 (Angela Labedz, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 3 (Anna Quistad, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 4 (Beth Gomez, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 5 (Colleen Mertens, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 6 (Elena Silberman-Scott, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 7 (Jeffrey Bram, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 8 (Jessica Littlefield, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 9 (Katie O'Donnell, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 10 (Latehesha Fitch, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 12 (Monica Sullivan, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 13 (Natalie Dreher, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 14 (Peggy Glotzbach, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 15 (Rachel Keyho, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 16 (Sandra Manley-Eichler, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 17 (Sarah Sarhaddi, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 18 (Teresa Smith, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 19 (Tiffany Potts-Daniel, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 20 (Zena Goldenberg, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 21 (Jennifer Galindo, BHI): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 22 (Tiffany Bongiorno, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 23 (Carol Crews, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 24 (John Schroeder, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 25 (Yaritza Camargo, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 26 (Victoria Christman-Kuston, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 27 (Angela Dea, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 28 (Byeol Shim, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 29 (Kavita Adatia, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 30 (Ian Evans, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 31 (Lauren Gonzalez, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 32 (Aaron Huth, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 33 (Alicia Noyes, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 34 (Kelly McElligott, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 35 (Colleen Pasciak, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 36 (James Rust, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 37 (Thomas Slonka, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 38 (Jordyn Week, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 39 (Michele Wendt, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 40 (Cecilia Kasem, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 41 (Angela Sakanis, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 44 (Brittany Bisaillon, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 45 (Mary Briegel, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 46 (Jennifer Downs-Sandack, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 48 (Jennifer Kenneavy, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 49 (Erik Meeks, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 50 (Ashley Porter, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 51 (Bryan Rebhan, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 52 (Sharon Holmes, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 53 (Jack Kane, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 54 (Monique Ocanas, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 55 (Marcia Ooms, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 57 (Jennifer Randle, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 58 (Leah Stewart, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 59 (Connor Strawn, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 60 (Donell Bluford, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 61 (Robin Contreras, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 62 (Sara DeNova, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 63 (Melissa Hedlund-Nelson, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 64 (Nicole Knepper, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 65 (Amy Medlin, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 66 (Tammy Tunac, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 67 (Saher Imtiaz, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 68 (Samantha Miemczewski, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 70 (Melanie Heap, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 71 (Dylan Panuska, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 72 (Tara Reimer, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 74 (Laima Zavistauskas, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 75 (Lauren Campbell, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 76 (Paw Say-Ku, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 77 (Lindsey Harrington, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 78 (Katherine Fearon, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 79 (Alison Dixon, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 80 (Stephanie Snow, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 81 (Amanda Schwellenbach, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 82 (Stephanie Stanislawcyzk, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 83 (Shama Joshi, Counseling): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 85 (Elizabeth Podlasek, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 86 (Maha Anwar, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 87 (Courtney Alvarez, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 88 (Sachin Bhalerao, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 89 (Janice Kowalski, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 90 (Vikram Cheema, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 91 (Bradley Cutler, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 92 (Danielle DeGrado, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 93 (Sarah Gresk, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 94 (Kristin Katsenes, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 95 (Susan Mangano, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 96 (Lori Marek, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 97 (Ryan McFeeters, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 98 (Lisa Pellegrini, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 99 (Michelle Verner, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 100 (Kevin Masterson, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 101 (Jyoti Shah, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 102 (Susan Ahmari, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 103 (Lindy Luchowski, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 104 (Kelsie Winger, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 105 (Daniel Pappas, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 106 (Angela Quiroz, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 107 (Michael Martin, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 108 (Justine Wilson, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 109 (Marie Zahorick, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 110 (Ryan Kunz, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 111 (Shannon Jarot, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 112 (Raquel Bischoff, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 113 (Matthew de-la-Torre, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 114 (Catherine Camilleri, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 115 (Janette Leveille, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 116 (Faizal Malkana, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 117 (Lekshmi Venugopal, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 118 (Walter Whang, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 119 (Taylor Haeffele, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 120 (Paul Regan, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 121 (Jennie Hackman, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 122 (Nancy Tate-Julu, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 123 (Sara Bell, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 124 (Justin Jamison, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 125 (Kelli Keller, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 126 (Ryan Gallagher, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 127 (Thuyen Nguyen, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 128 (Amber Asbach, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 129 (Christine Dahl, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 130 (Anu Mathur, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 131 (Colleen McGinn, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 132 (Kathleen McGreal, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 133 (Tobin Tito, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 134 (Joseph DeSimone, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 135 (Kunal Gandhi, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 136 (David Moy, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 137 (Emily Wang, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 138 (Nicholas Midlash, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 139 (Gail Gannon, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+  Original Row 140 (Ghouse Mohiuddin, MM): KEEPING (not targeted for removal/correction, and not already present as a corrected form).
+Total rows after processing and deduplication by map key: 141
+--- Writing 141 rows to 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv --- 
+Successfully updated 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv using force_correct script.
+--- Script force_correct_consolidated_names.py finished ---

@@ -1,0 +1,18 @@
+--- Running script: verify_pulse_names.py ---
+Attempting to load truth data from: 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv
+Successfully loaded 141 unique truth entries.
+
+Verifying file: 00_source_data\pulse_data\pulse_bhi\pulse_bhi.csv (Label: BHI)
+  Finished verifying 00_source_data\pulse_data\pulse_bhi\pulse_bhi.csv. Checked 22 data rows. Found 0 discrepancies in this file.
+
+Verifying file: 00_source_data\pulse_data\pulse_counseling\pulse_counseling.csv (Label: Counseling)
+  Finished verifying 00_source_data\pulse_data\pulse_counseling\pulse_counseling.csv. Checked 63 data rows. Found 0 discrepancies in this file.
+
+Verifying file: 00_source_data\pulse_data\pulse_mm\pulse_mm.csv (Label: MM)
+  Finished verifying 00_source_data\pulse_data\pulse_mm\pulse_mm.csv. Checked 56 data rows. Found 0 discrepancies in this file.
+
+--- Verification Summary ---
+Total Discrepancies Found (across all Pulse files): 0
+Verification PASSED: All names in Pulse files match the consolidated list.
+
+--- Script verify_pulse_names.py finished ---

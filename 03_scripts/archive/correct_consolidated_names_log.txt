@@ -1,0 +1,9 @@
+--- Running script: correct_consolidated_names.py (rebuild strategy) ---
+Attempting to read: 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv
+Successfully read 141 original rows from 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv.
+--- Rebuilding and Correcting List ---
+--- Deduplicating Rebuilt List --- 
+Deduplication complete. Final rebuilt row count: 141
+--- Writing 141 rows to 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv --- 
+Successfully updated 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv using rebuild strategy.
+--- Script correct_consolidated_names.py (rebuild strategy) finished ---

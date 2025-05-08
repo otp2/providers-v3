@@ -1,0 +1,16 @@
+--- Running script: create_working_airtable.py ---
+Attempting to process Pulse file: 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv
+Successfully processed 141 rows from 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv.
+
+Attempting to process Northshore file: 05_airtable_and_mapping\03_northshore\northshore_names.csv
+Successfully processed 50 rows from 05_airtable_and_mapping\03_northshore\northshore_names.csv.
+
+Attempting to write 191 combined data rows to: 05_airtable_and_mapping\working_airtable.csv
+Successfully wrote 191 data rows (plus header) to 05_airtable_and_mapping\working_airtable.csv
+
+--- Create Working Airtable Summary ---
+Rows processed from Pulse file: 141
+Rows processed from Northshore file: 50
+Total data rows written to working_airtable.csv: 191
+
+--- Script create_working_airtable.py finished ---

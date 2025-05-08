@@ -1,26 +1,33 @@
 First Name,Last Name,Pulse Label
-Adam,Oberhoffer,BHI
-Angela,Labedz,BHI
-Anna,Quistad,BHI
-Beth,Gomez,BHI
-Colleen,Mertens,BHI
-Elena,Silberman-Scott,BHI
-Jeffrey,Bram,BHI
-Jessica,Littlefield,BHI
-Katie,O'Donnell,BHI
-Latehesha,Fitch,BHI
-Amalia,Demopolus,BHI
-Martha,Trujillo,BHI
-Monica,Sullivan,BHI
-Natalie,Dreher,BHI
-Peggy,Glotzbach,BHI
-Rachel,Keyho,BHI
-Sandra,Manley-Eichler,BHI
-Sarah,Sarhaddi,BHI
-Teresa,Smith,BHI
-Tiffany,Potts-Daniel,BHI
-Zena,Goldenberg,BHI
-Jennifer,Galindo,BHI
+Lia,Panos,Behavioral Health Integration
+Martha,Trujillo,Behavioral Health Integration
+Martha,Trujillo,Counseling
+Sarah,Mulligan,Counseling
+Martin,Beirne,Counseling
+Kathryn,Ordiway,Counseling
+Radostina,Yakimova-Marfoe,Counseling
+Pagel,Palmer,Counseling
+Michael,Geraci,Counseling
+Adam,Oberhoffer,Behavioral Health Integration
+Angela,Labedz,Behavioral Health Integration
+Anna,Quistad,Behavioral Health Integration
+Beth,Gomez,Behavioral Health Integration
+Colleen,Mertens,Behavioral Health Integration
+Elena,Silberman-Scott,Behavioral Health Integration
+Jeffrey,Bram,Behavioral Health Integration
+Jessica,Littlefield,Behavioral Health Integration
+Katie,O'Donnell,Behavioral Health Integration
+Latehesha,Fitch,Behavioral Health Integration
+Monica,Sullivan,Behavioral Health Integration
+Natalie,Dreher,Behavioral Health Integration
+Peggy,Glotzbach,Behavioral Health Integration
+Rachel,Keyho,Behavioral Health Integration
+Sandra,Manley-Eichler,Behavioral Health Integration
+Sarah,Sarhaddi,Behavioral Health Integration
+Teresa,Smith,Behavioral Health Integration
+Tiffany,Potts-Daniel,Behavioral Health Integration
+Zena,Goldenberg,Behavioral Health Integration
+Jennifer,Galindo,Behavioral Health Integration
 Tiffany,Bongiorno,Counseling
 Carol,Crews,Counseling
 John,Schroeder,Counseling
@@ -41,12 +48,9 @@ Jordyn,Week,Counseling
 Michele,Wendt,Counseling
 Cecilia,Kasem,Counseling
 Angela,Sakanis,Counseling
-Martha,Trujillo,Counseling
-Martin,Beirne,Counseling
 Brittany,Bisaillon,Counseling
 Mary,Briegel,Counseling
 Jennifer,Downs-Sandack,Counseling
-Michael,Geraci,Counseling
 Jennifer,Kenneavy,Counseling
 Erik,Meeks,Counseling
 Ashley,Porter,Counseling
@@ -55,7 +59,6 @@ Sharon,Holmes,Counseling
 Jack,Kane,Counseling
 Monique,Ocanas,Counseling
 Marcia,Ooms,Counseling
-Kathleen,Ordiway,Counseling
 Jennifer,Randle,Counseling
 Leah,Stewart,Counseling
 Connor,Strawn,Counseling
@@ -68,11 +71,9 @@ Amy,Medlin,Counseling
 Tammy,Tunac,Counseling
 Saher,Imtiaz,Counseling
 Samantha,Miemczewski,Counseling
-Sarah,Mulligan,Counseling
 Melanie,Heap,Counseling
 Dylan,Panuska,Counseling
 Tara,Reimer,Counseling
-Radostina,Yakimova-Marfoe,Counseling
 Laima,Zavistauskas,Counseling
 Lauren,Campbell,Counseling
 Paw,Say-Ku,Counseling
@@ -83,60 +84,59 @@ Stephanie,Snow,Counseling
 Amanda,Schwellenbach,Counseling
 Stephanie,Stanislawcyzk,Counseling
 Shama,Joshi,Counseling
-Pagel,Palmer,Counseling
-Elizabeth,Podlasek,MM
-Maha,Anwar,MM
-Courtney,Alvarez,MM
-Sachin,Bhalerao,MM
-Janice,Kowalski,MM
-Vikram,Cheema,MM
-Bradley,Cutler,MM
-Danielle,DeGrado,MM
-Sarah,Gresk,MM
-Kristin,Katsenes,MM
-Susan,Mangano,MM
-Lori,Marek,MM
-Ryan,McFeeters,MM
-Lisa,Pellegrini,MM
-Michelle,Verner,MM
-Kevin,Masterson,MM
-Jyoti,Shah,MM
-Susan,Ahmari,MM
-Lindy,Luchowski,MM
-Kelsie,Winger,MM
-Daniel,Pappas,MM
-Angela,Quiroz,MM
-Michael,Martin,MM
-Justine,Wilson,MM
-Marie,Zahorick,MM
-Ryan,Kunz,MM
-Shannon,Jarot,MM
-Raquel,Bischoff,MM
-Matthew,de-la-Torre,MM
-Catherine,Camilleri,MM
-Janette,Leveille,MM
-Faizal,Malkana,MM
-Lekshmi,Venugopal,MM
-Walter,Whang,MM
-Taylor,Haeffele,MM
-Paul,Regan,MM
-Jennie,Hackman,MM
-Nancy,Tate-Julu,MM
-Sara,Bell,MM
-Justin,Jamison,MM
-Kelli,Keller,MM
-Ryan,Gallagher,MM
-Thuyen,Nguyen,MM
-Amber,Asbach,MM
-Christine,Dahl,MM
-Anu,Mathur,MM
-Colleen,McGinn,MM
-Kathleen,McGreal,MM
-Tobin,Tito,MM
-Joseph,DeSimone,MM
-Kunal,Gandhi,MM
-David,Moy,MM
-Emily,Wang,MM
-Nicholas,Midlash,MM
-Gail,Gannon,MM
-Ghouse,Mohiuddin,MM
+Elizabeth,Podlasek,Medication Management
+Maha,Anwar,Medication Management
+Courtney,Alvarez,Medication Management
+Sachin,Bhalerao,Medication Management
+Janice,Kowalski,Medication Management
+Vikram,Cheema,Medication Management
+Bradley,Cutler,Medication Management
+Danielle,DeGrado,Medication Management
+Sarah,Gresk,Medication Management
+Kristin,Katsenes,Medication Management
+Susan,Mangano,Medication Management
+Lori,Marek,Medication Management
+Ryan,McFeeters,Medication Management
+Lisa,Pellegrini,Medication Management
+Michelle,Verner,Medication Management
+Kevin,Masterson,Medication Management
+Jyoti,Shah,Medication Management
+Susan,Ahmari,Medication Management
+Lindy,Luchowski,Medication Management
+Kelsie,Winger,Medication Management
+Daniel,Pappas,Medication Management
+Angela,Quiroz,Medication Management
+Michael,Martin,Medication Management
+Justine,Wilson,Medication Management
+Marie,Zahorick,Medication Management
+Ryan,Kunz,Medication Management
+Shannon,Jarot,Medication Management
+Raquel,Bischoff,Medication Management
+Matthew,de-la-Torre,Medication Management
+Catherine,Camilleri,Medication Management
+Janette,Leveille,Medication Management
+Faizal,Malkana,Medication Management
+Lekshmi,Venugopal,Medication Management
+Walter,Whang,Medication Management
+Taylor,Haeffele,Medication Management
+Paul,Regan,Medication Management
+Jennie,Hackman,Medication Management
+Nancy,Tate-Julu,Medication Management
+Sara,Bell,Medication Management
+Justin,Jamison,Medication Management
+Kelli,Keller,Medication Management
+Ryan,Gallagher,Medication Management
+Thuyen,Nguyen,Medication Management
+Amber,Asbach,Medication Management
+Christine,Dahl,Medication Management
+Anu,Mathur,Medication Management
+Colleen,McGinn,Medication Management
+Kathleen,McGreal,Medication Management
+Tobin,Tito,Medication Management
+Joseph,DeSimone,Medication Management
+Kunal,Gandhi,Medication Management
+David,Moy,Medication Management
+Emily,Wang,Medication Management
+Nicholas,Midlash,Medication Management
+Gail,Gannon,Medication Management
+Ghouse,Mohiuddin,Medication Management

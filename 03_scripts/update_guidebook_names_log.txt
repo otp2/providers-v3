@@ -1,0 +1,75 @@
+--- Running script: update_guidebook_names_from_northshore.py (v2 reader/writer) ---
+Attempting to load Northshore names from: 05_airtable_and_mapping\03_northshore\northshore_names.csv
+Successfully loaded 50 unique name entries from Northshore names.
+
+Attempting to process Guidebook file: 00_source_data\guidebook\guidebook.csv using positional writing
+  Match: Row 2 Guidebook ('Adrienne Adams') -> Northshore ('Adrienne', 'Adams')
+  Info: Row 3 Guidebook name 'Jon Chernaik' aliased to Northshore key 'jonathan chernaik'
+  Match: Row 3 Guidebook ('Jon Chernaik') -> Northshore ('Jonathan', 'Chernaik')
+  Match: Row 4 Guidebook ('Bryce Dunlap') -> Northshore ('Bryce', 'Dunlap')
+  Match: Row 5 Guidebook ('Daniel Giacomo') -> Northshore ('Daniel', 'Giacomo')
+  Match: Row 6 Guidebook ('Lexie Gigous') -> Northshore ('Lexie', 'Gigous')
+  Match: Row 7 Guidebook ('Rena Goodfriend-Leve') -> Northshore ('Rena', 'Goodfriend-Leve')
+  Match: Row 8 Guidebook ('Boseung Halliwell') -> Northshore ('Boseung', 'Halliwell')
+  Match: Row 9 Guidebook ('Leslie Herman') -> Northshore ('Leslie', 'Herman')
+  Match: Row 10 Guidebook ('Michael Levy') -> Northshore ('Michael', 'Levy')
+  Match: Row 11 Guidebook ('Nina Liu') -> Northshore ('Nina', 'Liu')
+  Info: Row 12 Guidebook name 'Rob Marvin' aliased to Northshore key 'robert marvin'
+  Match: Row 12 Guidebook ('Rob Marvin') -> Northshore ('Robert', 'Marvin')
+  Match: Row 13 Guidebook ('Amy Noel') -> Northshore ('Amy', 'Noel')
+  Match: Row 14 Guidebook ('Eun Sun Paik') -> Northshore ('Eun Sun', 'Paik')
+  Match: Row 15 Guidebook ('Laura Parise') -> Northshore ('Laura', 'Parise')
+  Match: Row 16 Guidebook ('Benjamin Shain') -> Northshore ('Benjamin', 'Shain')
+  Match: Row 17 Guidebook ('Ankita Sharma') -> Northshore ('Ankita', 'Sharma')
+  Match: Row 18 Guidebook ('Joshua Straus') -> Northshore ('Joshua', 'Straus')
+  Match: Row 19 Guidebook ('Ravi Valluripalli') -> Northshore ('Ravi', 'Valluripalli')
+  Match: Row 20 Guidebook ('Claire Brunegraff') -> Northshore ('Claire', 'Brunegraff')
+  Match: Row 21 Guidebook ('Andrea Busby') -> Northshore ('Andrea', 'Busby')
+  Match: Row 22 Guidebook ('Brandy Crandall') -> Northshore ('Brandy', 'Crandall')
+  Info: Row 23 Guidebook name 'Susie Lesher' aliased to Northshore key 'susan lesher'
+  Match: Row 23 Guidebook ('Susie Lesher') -> Northshore ('Susan', 'Lesher')
+  Match: Row 24 Guidebook ('Melanie Nadell') -> Northshore ('Melanie', 'Nadell')
+  Info: Row 25 Guidebook name 'Jenni Nierstheimer' aliased to Northshore key 'jennifer nierstheimer'
+  Match: Row 25 Guidebook ('Jenni Nierstheimer') -> Northshore ('Jennifer', 'Nierstheimer')
+  Match: Row 26 Guidebook ('Laura Pettineo') -> Northshore ('Laura', 'Pettineo')
+  Match: Row 27 Guidebook ('Ashley Rolnik') -> Northshore ('Ashley', 'Rolnik')
+  Info: Row 28 Guidebook name 'Alex Schade' aliased to Northshore key 'alex elstein'
+  Match: Row 28 Guidebook ('Alex Schade') -> Northshore ('Alex', 'Elstein')
+  Match: Row 29 Guidebook ('Natalie Schmitt') -> Northshore ('Natalie', 'Schmitt')
+  Match: Row 30 Guidebook ('Alexis Silas') -> Northshore ('Alexis', 'Silas')
+  Match: Row 31 Guidebook ('Trikina Banks') -> Northshore ('Trikina', 'Banks')
+  Match: Row 32 Guidebook ('Zahava Davidson') -> Northshore ('Zahava', 'Davidson')
+  Match: Row 33 Guidebook ('Michael Jeske') -> Northshore ('Michael', 'Jeske')
+  Match: Row 34 Guidebook ('Priya Kapoor') -> Northshore ('Priya', 'Kapoor')
+  Match: Row 35 Guidebook ('Lenore Kurpiel') -> Northshore ('Lenore', 'Kurpiel')
+  Match: Row 36 Guidebook ('Stephanie Lyons') -> Northshore ('Stephanie', 'Lyons')
+  Match: Row 37 Guidebook ('Helene Moses') -> Northshore ('Helene', 'Moses')
+  Match: Row 38 Guidebook ('Rafael Rivera') -> Northshore ('Rafael', 'Rivera')
+  Info: Row 39 Guidebook name 'Jeff Sholemson' aliased to Northshore key 'jeffrey sholemson'
+  Match: Row 39 Guidebook ('Jeff Sholemson') -> Northshore ('Jeffrey', 'Sholemson')
+  Match: Row 40 Guidebook ('Susan Urban') -> Northshore ('Susan', 'Urban')
+  Match: Row 41 Guidebook ('Christina Wong') -> Northshore ('Christina', 'Wong')
+  Match: Row 42 Guidebook ('Brooke Zitny') -> Northshore ('Brooke', 'Zitny')
+  Match: Row 43 Guidebook ('Stephanie Aylward') -> Northshore ('Stephanie', 'Aylward')
+  Match: Row 44 Guidebook ('Laura Benson') -> Northshore ('Laura', 'Benson')
+  Match: Row 45 Guidebook ('Nicole Cruz') -> Northshore ('Nicole', 'Cruz')
+  Match: Row 46 Guidebook ('Elizabeth Geary') -> Northshore ('Elizabeth', 'Geary')
+  Match: Row 47 Guidebook ('Leslie Guidotti-Breting') -> Northshore ('Leslie', 'Guidotti-Breting')
+  Match: Row 48 Guidebook ('Navya Kamath') -> Northshore ('Navya', 'Kamath')
+  Match: Row 49 Guidebook ('Alexandra Kirsch') -> Northshore ('Alexandra', 'Kirsch')
+  Match: Row 50 Guidebook ('Alona Ramati') -> Northshore ('Alona', 'Ramati')
+  Info: Row 51 Guidebook name 'Chris Williams' aliased to Northshore key 'christopher williams'
+  Match: Row 51 Guidebook ('Chris Williams') -> Northshore ('Christopher', 'Williams')
+Finished processing Guidebook. Processed 50 data rows.
+
+Attempting to write 51 rows back to: 00_source_data\guidebook\guidebook.csv
+Successfully wrote updated data to 00_source_data\guidebook\guidebook.csv
+
+--- Update Guidebook Names Summary (v2 reader/writer) ---
+Total rows processed from Guidebook: 50
+Rows matched with Northshore and First/Last Name updated: 50
+Rows where 'Provider Name (hyperlink to Practice Brochure)' was empty (skipped name update): 0
+Rows where Guidebook name was NOT found in Northshore lookup: 0
+Number of entries in Northshore lookup: 50
+
+--- Script update_guidebook_names_from_northshore.py (v2 reader/writer) finished ---

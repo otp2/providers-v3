@@ -1,0 +1,34 @@
+Log file created at 03_scripts\update_pulse_names_log.txt
+Loaded 141 unique name entries from 05_airtable_and_mapping\02_pulse\pulse_consolidated_names.csv
+
+Processing file: 00_source_data\pulse_data\pulse_bhi\pulse_bhi.csv for label: BHI
+  DEBUG: Checking for Martha Trujilo (BHI) in pulse_bhi.csv:
+    DEBUG:   Original raw string from CSV: 'Martha Trujilo' (len 14)
+    DEBUG:   Normalized from CSV: 'marthatrujilo'
+    DEBUG:   Lookup key being checked: ('marthatrujilo', 'BHI')
+    DEBUG:   Is key in corrected_names_lookup? False
+    DEBUG:   Expected key from consolidated for CORRECT 'Martha Trujillo': ('marthatrujillo', 'BHI')
+    DEBUG:   Is *expected* consolidated key in lookup? True
+    DEBUG:     Value for expected key '('marthatrujillo', 'BHI')': 'Martha Trujillo'
+  INFO: Matched 'Martha Trujilo' to corrected form via known_variants_map. Using key ('marthatrujillo', 'BHI') for lookup.
+  Finished processing 00_source_data\pulse_data\pulse_bhi\pulse_bhi.csv.
+  Names updated: 1
+  Names not found/kept original: 0
+
+Processing file: 00_source_data\pulse_data\pulse_counseling\pulse_counseling.csv for label: Counseling
+  INFO: Matched 'Marty Beirne' to corrected form via known_variants_map. Using key ('martinbeirne', 'Counseling') for lookup.
+  INFO: Matched 'Mike Geraci' to corrected form via known_variants_map. Using key ('michaelgeraci', 'Counseling') for lookup.
+  INFO: Matched 'Kathy Ordiway' to corrected form via known_variants_map. Using key ('kathrynordiway', 'Counseling') for lookup.
+  INFO: Matched 'Sarah Mulligan (Denman)' to corrected form via known_variants_map. Using key ('sarahmulligan', 'Counseling') for lookup.
+  INFO: Matched 'Radostina "Ina" Yakimova-Marfoe' to corrected form via known_variants_map. Using key ('radostinayakimovamarfoe', 'Counseling') for lookup.
+  INFO: Matched 'Pagel Palmer Jr.' to corrected form via known_variants_map. Using key ('pagelpalmer', 'Counseling') for lookup.
+  Finished processing 00_source_data\pulse_data\pulse_counseling\pulse_counseling.csv.
+  Names updated: 6
+  Names not found/kept original: 0
+
+Processing file: 00_source_data\pulse_data\pulse_mm\pulse_mm.csv for label: MM
+  Finished processing 00_source_data\pulse_data\pulse_mm\pulse_mm.csv.
+  Names updated: 0
+  Names not found/kept original: 0
+
+Script finished.

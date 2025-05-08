@@ -1,0 +1,7 @@
+--- Running script: correct_northshore_names.py ---
+Attempting to read and correct: 05_airtable_and_mapping\03_northshore\northshore_names.csv
+  Corrected Row 28: ('Alexandra', 'Lee-Elstein') -> ('Alex', 'Elstein')
+Successfully read 50 rows from 05_airtable_and_mapping\03_northshore\northshore_names.csv.
+Successfully wrote 50 rows back to 05_airtable_and_mapping\03_northshore\northshore_names.csv
+Total corrections applied: 1
+--- Script correct_northshore_names.py finished ---
